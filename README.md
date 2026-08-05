@@ -1,4 +1,5 @@
 # Wireless Digital Communication System
+**Technologies:** TM4C123 • Embedded C • MATLAB • RTL-SDR • RF Communications • Spectrum Analyzer • Oscilloscope
 
 > University of Texas at Arlington | Wireless Communications Laboratory Project
 
@@ -18,10 +19,10 @@ The project combines embedded systems, RF engineering, digital communications, s
 
 ## Laboratory Demonstrations
 
-Project photographs, laboratory setup images, and experimental results will be added in future updates.
+Representative laboratory setup photographs, RF measurement screenshots, and experimental results will be added in future repository updates.
 
 ---
-# Project Objectives
+## Project Objectives
 
 - Design and evaluate a digital wireless communication system.
 - Generate digitally modulated RF signals.
@@ -33,7 +34,7 @@ Project photographs, laboratory setup images, and experimental results will be a
 
 ---
 
-# Project Workflow
+## Project Workflow
 
 ```
 Embedded Transmitter
@@ -59,35 +60,35 @@ Bit Error Analysis
 
 ---
 
-# System Components
+## System Components
 
-## Embedded Hardware
+### Embedded Hardware
 
 - TM4C123GXL LaunchPad
 - Digital-to-Analog Converter (DAC)
 - Operational Amplifier
 
-## RF Equipment
+### RF Equipment
 
 - RF Signal Generator
 - Spectrum Analyzer
 - Oscilloscope
 - RTL-SDR Receiver
 
-## Antennas
+### Antennas
 
 - 2.4 GHz Yagi-Uda Antenna
 - X-Band Horn Antenna
 - 935 MHz Dipole Antenna
 
-## Software
+### Software
 
 - Embedded C
 - MATLAB
 
 ---
 
-# Digital Modulation
+## Digital Modulation
 
 The transmitter portion of the project focused on generating digitally modulated signals using embedded hardware and RF instrumentation.
 
@@ -104,7 +105,7 @@ Experimental measurements were performed using oscilloscopes and spectrum analyz
 
 ---
 
-# RF Propagation & Antenna Testing
+## RF Propagation & Antenna Testing
 
 The RF laboratory focused on understanding wireless signal propagation and antenna behavior.
 
@@ -126,7 +127,7 @@ Signal attenuation caused by people, glass, and wood was measured and compared w
 
 ---
 
-# Digital Reception & Signal Processing
+## Digital Reception & Signal Processing
 
 The receiver portion of the project demonstrated how transmitted wireless signals are recovered.
 
@@ -143,9 +144,11 @@ MATLAB was used to analyze received data and verify communication system perform
 
 ---
 
-# My Contributions
+## My Contributions
 
 This project was completed as a two-person wireless communications laboratory project.
+
+The project was developed collaboratively, with responsibilities shared across hardware implementation, RF experimentation, signal analysis, and technical documentation.
 
 My contributions included:
 
@@ -153,13 +156,13 @@ My contributions included:
 - Configured and tested embedded wireless communication hardware.
 - Performed RF measurements using oscilloscopes, spectrum analyzers, and laboratory instrumentation.
 - Conducted antenna characterization and RF propagation experiments.
-- Assisted with digital modulation and demodulation testing and analysis.
+- Participated in digital modulation and demodulation testing and analysis.
 - Processed and analyzed experimental communication data using MATLAB.
 - Documented laboratory procedures, technical analysis, and experimental findings.
 
 ---
 
-# Engineering Skills Demonstrated
+## Engineering Skills Demonstrated
 
 - Embedded Systems
 - Embedded C
@@ -184,19 +187,17 @@ My contributions included:
 
 ---
 
-# Project Documentation
+## Project Documentation
 
 Supporting documentation is available in the **docs** folder.
 
-Included reports:
-
-- Digital Modulation
-- RF Propagation & Antenna Testing
-- Digital Demodulation & Reception
+- [Digital Modulation Report](docs/Digital_Modulation_Report.pdf)
+- [RF Propagation and Antenna Testing Report](docs/RF_Propagation_Antenna_Testing_Report.pdf)
+- [Digital Demodulation and Reception Report](docs/Digital_Demodulation_Reception_Report.pdf)
 
 ---
 
-# What I Learned
+## What I Learned
 
 This project strengthened my understanding of:
 
@@ -218,8 +219,10 @@ This project was completed as a collaborative two-person laboratory project. Thi
 
 ---
 
-# Repository Purpose
+## Repository Purpose
 
 This repository serves as part of my engineering portfolio and documents a series of wireless communications laboratory projects completed at the University of Texas at Arlington.
 
 The project demonstrates practical experience with embedded systems, RF engineering, digital communications, antenna characterization, software-defined radio, and MATLAB signal processing through experimental design, testing, and analysis.
+
+The included reports document the complete wireless communication workflow, from digital modulation and RF transmission to antenna characterization, signal reception, and digital demodulation.
