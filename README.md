@@ -19,9 +19,24 @@ The project combines embedded systems, RF engineering, digital communications, s
 
 ## Laboratory Demonstrations
 
-Representative laboratory setup photographs, RF measurement screenshots, and experimental results will be added in future repository updates.
+### Embedded Hardware Setup
+
+<p align="center">
+  <img src="images/Hardware_setup.jpg" alt="TM4C123 Wireless Communication Hardware Setup" width="650">
+</p>
+
+*TM4C123GXL-based embedded hardware used for digital modulation and wireless communication experiments.*
+
+### RF & Antenna Testing
+
+<p align="center">
+  <img src="images/antenna_setup.png" alt="RF Antenna Testing Setup" width="650">
+</p>
+
+*Laboratory antenna configuration used for RF propagation and signal attenuation measurements.*
 
 ---
+
 ## Project Objectives
 
 - Design and evaluate a digital wireless communication system.
@@ -103,6 +118,22 @@ Topics investigated included:
 
 Experimental measurements were performed using oscilloscopes and spectrum analyzers to observe signal behavior and modulation quality.
 
+### I/Q Signal Analysis
+
+<p align="center">
+  <img src="images/iq_xy_scope.png" alt="I and Q Oscilloscope XY Plot" width="550">
+</p>
+
+*Oscilloscope XY display used to evaluate the phase relationship between the I and Q signals.*
+
+### RF Spectrum Analysis
+
+<p align="center">
+  <img src="images/rf_spectrum.png" alt="RF Spectrum Analyzer Measurement" width="650">
+</p>
+
+*Spectrum analyzer measurement used to evaluate the digitally modulated RF signal.*
+
 ---
 
 ## RF Propagation & Antenna Testing
@@ -141,6 +172,22 @@ Signal processing tasks included:
 - Bit Error Rate (BER) evaluation
 
 MATLAB was used to analyze received data and verify communication system performance.
+
+### Barker-13 Preamble Detection
+
+<p align="center">
+  <img src="images/barker_detection.jpg" alt="Barker-13 Preamble Correlation Detection" width="600">
+</p>
+
+*MATLAB correlation result showing detection of the Barker-13 preamble used for receiver synchronization.*
+
+### QPSK Constellation Recovery
+
+<p align="center">
+  <img src="images/qpsk_constellation.jpg" alt="Recovered QPSK Constellation" width="600">
+</p>
+
+*Recovered QPSK constellation following synchronization and signal processing in MATLAB.*
 
 ---
 
