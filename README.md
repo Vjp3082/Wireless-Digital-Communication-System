@@ -238,9 +238,9 @@ My contributions included:
 
 Supporting documentation is available in the **docs** folder.
 
-- [Digital Modulation Report](docs/Digital_Modulation_Report.pdf)
-- [RF Propagation and Antenna Testing Report](docs/RF_Propagation_Antenna_Testing_Report.pdf)
-- [Digital Demodulation and Reception Report](docs/Digital_Demodulation_Reception_Report.pdf)
+- [Digital Modulation Report](./docs/Digital_Modulation_Report.pdf)
+- [RF Propagation and Antenna Testing Report](./docs/RF_Propagation_Antenna_Testing_Report.pdf)
+- [Digital Demodulation and Reception Report](./docs/Digital_Demodulation_Reception_Report.pdf)
 
 ---
 
